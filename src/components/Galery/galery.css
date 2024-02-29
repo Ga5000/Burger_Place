@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+.galery{
+    color: #fff;
+    font-family: 'Rubik',sans-serif;
+}
+
+.galery h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+.container-galery .card{
+    display:grid;
+    grid-template-columns: repeat(3,auto);
+    align-items: center;
+    gap: 15px;
+}
+
+.container-galery img{
+    width: 200px;
+    height: auto;
+    border: none;
+    border-radius: 8px;
+    margin-left: 100px;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.container-galery img:hover{
+    width: 250px;
+    height: auto;
+}
+
+.container-galery .card h3{
+    font-size: 1rem;
+}
+.container-galery .card p{
+    font-size: 0.8rem;
+    text-align: start;
+    
+}

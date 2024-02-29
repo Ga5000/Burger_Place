@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #000000;
+}
+.header-nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #494949;
+}
+
+.title-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.title-container .title{
+    color: #ffffffff;
+    font-weight: bold;
+    margin-left: 5px;
+    font-family: 'Rubik',sans-serif;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.title-container .title:hover{
+    color: #000000;
+}
+
+.title-container img{
+    margin-left: 5px;
+    width: 25px;
+    height: auto;
+    cursor: pointer;
+}
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 25px;
+}
+
+.nav-bar .menu-icon{
+    width: 30px;
+    height: auto;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.nav-bar .menu-text{
+    color: #ff0000;
+    margin-left: 5px;
+    font-family: 'Rubik',sans-serif;
+    font-size: 15px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.nav-bar .menu-text:hover{
+    color: hsl(0, 100%, 35%);
+}

@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+.location{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #181818;
+    margin-top: 10px;
+}
+
+.location h1{
+    font-size: 50px;
+    font-weight: 100;
+    margin-top: 20px;
+    color: #940000;
+    font-family: 'Rubik',sans-serif;
+}
+
+.location .line{
+    color: #ffffffff;
+    width: 250px;
+}
+
+.info-list{
+    display:grid;
+    grid-template-rows: repeat(3,auto);
+    list-style: none;
+}
+
+.info-list .info{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-right: 200px;
+}
+
+.info .info-icon{
+    width: 50px;
+    height: auto;
+}
+
+.info .info-text{
+    margin-left: 30px;
+    font-size: 1.5rem;
+    color: #626262;
+    font-weight: 300;
+    font-family: 'Montserrat',sans-serif;
+}

@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    margin-top: 50px;
+    background-image: url('./imgs/backgroundImg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    opacity: 0.8;
+    
+}
+
+
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    backdrop-filter: blur(5px);
+}
+
+.serving-text{
+    color: #ffffff;
+    font-size: 80px;
+    font-weight: 200;
+    font-family: 'Montserrat',sans-serif;
+}
+
+.serving-message{
+    word-break: 2px;
+    font-size: 30px;
+    color: #000000;
+    font-weight: bold;
+    font-family: 'Montserrat',sans-serif;
+}
+
+.serving-button{
+    border: 1px solid #ff0000;
+    width: 200px;
+    padding: 20px 20px;
+    border-radius: 16px;
+    margin-bottom: 150px;
+    cursor: pointer;
+    font-size: 25px;
+    color: #ffffff;
+    background-color: #000000;
+    box-shadow: 0px 8px 50px rgba(0,0,0,0.5);
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 200;
+    transition: 0.5s ease;
+     
+}
+
+
+.serving-button:hover{
+    border: 1px solid #000000;
+    background-color: hsl(0, 100%, 30%);
+    color: #000000;
+    font-weight: 400;
+    animation: none;
+}

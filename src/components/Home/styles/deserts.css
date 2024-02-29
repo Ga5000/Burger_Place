@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+.desert-container{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url('./imgs/desertImg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    opacity: 0.8;
+    margin-top: 50px;
+
+}
+
+.desert-text-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    backdrop-filter: blur(5px);
+    margin-bottom: 10px;
+}
+
+
+.desert-container h1{
+    font-size: 80px;
+    font-weight: 200;
+    font-family: 'Montserrat',sans-serif;
+    color: #ffffff;
+}
+
+.desert-container .text{
+    word-break: 2px;
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: 'Montserrat',sans-serif;
+}
+
+.desert-container .desert-button{
+    border: 1px solid #451515;
+    width: 200px;
+    padding: 20px 20px;
+    border-radius: 16px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 25px;
+    background-color: #080808;
+    color: #ffffffff;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 200;
+    box-shadow: 0px 8px 50px rgba(74, 28, 28, 0.5);
+    transition: 0.5s ease;
+}
+
+.desert-container .desert-button:hover{
+    border: 1px solid #080808;
+    background-color: #451515;
+    color: #080808;
+    font-weight: bold;
+}

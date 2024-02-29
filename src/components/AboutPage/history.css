@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+.introduction{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 120px;
+    font-family: 'Montserrat',sans-serif;
+    background-image: url('./imgs/burgerPlace.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+.introduction .introduction-welcome{
+    color: #ff0000;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.introduction .introduction-text{
+    color: #000000;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    text-wrap: wrap;
+}
+
+.history{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 80px;
+}
+
+.history .history-title{
+    color: #ff0000;
+    font-size: 2rem;
+    font-weight: 300;
+    font-family: 'Montserrat',sans-serif;
+}
+
+.history .history-text{
+    color: #fff;
+    font-size: 1em;
+    text-align: center;
+    text-wrap: wrap;
+    font-family: 'Montserrat',sans-serif;
+}
+
+.values{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 80px;
+}
+
+.values .values-title{
+    color: #ff0000;
+    font-size: 2rem;
+    font-weight: 300;
+    font-family: 'Montserrat',sans-serif;
+}
+
+.values .values-text{
+    color: #fff;
+    font-size: 1em;
+    text-align: center;
+    text-wrap: wrap;
+    font-family: 'Montserrat',sans-serif;
+}
