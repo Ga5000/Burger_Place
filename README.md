@@ -2,7 +2,7 @@
 
 # 🍔 Burger-Place - Página de Apresentação
 
-Bem-vindo ao projeto da página de apresentação para a Hamburgueria XYZ. Este projeto tem como objetivo fornecer uma presença online para a hamburgueria, permitindo aos clientes explorar o cardápio e obter informações sobre a hamburgueria.
+Bem-vindo ao projeto da página de apresentação para o Burger-Place. Este projeto tem como objetivo fornecer uma presença online para a hamburgueria, permitindo aos clientes explorar o cardápio e obter informações sobre a hamburgueria.
 
 ## Conteúdo do Projeto
 
@@ -34,7 +34,14 @@ Bem-vindo ao projeto da página de apresentação para a Hamburgueria XYZ. Este 
 
 - Integração de componentes reutilizáveis, como cabeçalho e localização.
 
-Tecnologias Utilizadas:
-React: Utilizado para criar uma interface de usuário interativa e dinâmica.
-CSS: Estilização para criar um design visualmente atraente.
-JavaScript: Lógica de programação para interações dinâmicas na página.
+## Tecnologias Utilizadas
+
+- **React:** Utilizado para criar uma interface de usuário interativa e dinâmica.
+- **CSS:** Estilização para criar um design visualmente atraente.
+- **JavaScript:** Lógica de programação para interações dinâmicas na página.
+
+## Como Executar o Projeto Localmente
+
+1. Clone este repositório para o seu ambiente de desenvolvimento.
+   ```bash
+   git clone https://github.com/Ga5000/Burger_Place
