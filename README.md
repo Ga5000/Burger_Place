@@ -34,14 +34,7 @@ Bem-vindo ao projeto da página de apresentação para a Hamburgueria XYZ. Este 
 
 - Integração de componentes reutilizáveis, como cabeçalho e localização.
 
-## Tecnologias Utilizadas
-
-- <strong>React:</strong> Utilizado para criar uma interface de usuário interativa e dinâmica.
-- <strong>CSS:</strong> Estilização para criar um design visualmente atraente.
-- <strong>JavaScript:</strong> Lógica de programação para interações dinâmicas na página.
-
-## Como Executar o Projeto Localmente
-
-1. Clone este repositório para o seu ambiente de desenvolvimento.
-   ```bash
-   git clone https://github.com/Ga5000/Burger_Place
+Tecnologias Utilizadas:
+React: Utilizado para criar uma interface de usuário interativa e dinâmica.
+CSS: Estilização para criar um design visualmente atraente.
+JavaScript: Lógica de programação para interações dinâmicas na página.
